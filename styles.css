@@ -1,0 +1,74 @@
+/* -- Configurações Gerais -- */
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(143, 143, 143, 0.219);
+}
+
+/* -- Menu de opções -- */
+
+#menu {
+    display: flex;
+    
+}
+
+/* -- Cadastro de Pessoas -- */
+
+#mainPrincipal {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+}
+
+#cadastrarPessoas {
+    display: flex;
+    flex-flow: column wrap;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid rgb(168, 168, 168);
+    width: 50%;
+}
+
+#cadastrar {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* -- Novas pessoas cadastradas -- */
+
+#cadastrados {
+
+}
+

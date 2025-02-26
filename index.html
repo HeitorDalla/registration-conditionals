@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Pessoas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div id="menu">
+        <div id="cadastrarFuncionario">1 - Cadastrar Funcionário</div>
+        <div id="listaFuncionários">2 - Listar Funcionário</div>
+        <div id="pesquisarFuncionarios">3 - Pesquisar Funcionário</div>
+        <div id="excluirFuncionarios">4 - Excluir Funcionários</div>
+        <div id="sairPrograma">5 - Sair do programa</div>
+    </div>
+
+    <div id="mainPrincipal">
+        <div id="cadastrarPessoas">
+            <!-- Será cadastradas as pessoas -->
+             <h1>Cadastrar Pessoa</h1>
+             <input type="text" name="Id" id="id" placeholder="Id" required>
+             <input type="text" name="nome" id="nome" placeholder="Nome" required>
+             <input type="text" name="cargo" id="cargo" placeholder="Cargo" required>
+             <input type="text" name="salario" id="salario" placeholder="Salario" required>
+             <input type="text" name="idade" id="idade" placeholder="Idade" required>
+             <button type="submit" id="cadastrar">Cadastrar</button>
+        </div>
+        <div id="cadastrados">
+            <!-- Será colocado as pessoas cadastradas -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</html>
